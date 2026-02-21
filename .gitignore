@@ -1,0 +1,38 @@
+# Environment
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+*.secret
+
+# Node
+node_modules/
+dist/
+coverage/
+.nyc_output/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
